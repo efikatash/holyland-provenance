@@ -52,6 +52,16 @@ export const collections: Collection[] = [
       "In keeping with respectful, honest representation, these oils are described for external devotional and ceremonial use only. We make no medical claims and no promise of guaranteed spiritual outcome.",
     ],
     communityFit: ["pentecostal-evangelical", "catholic", "gift-shop-distributor"],
+    heroImage: {
+      src: "/images/anointing-oils/anointing-oils-catalog.png",
+      alt: "Anointing oils from the Holy Land — Frankincense & Myrrh, Spikenard, Rose of Sharon, Cedar of Lebanon, and King David blends",
+    },
+    galleryImages: [
+      {
+        src: "/images/anointing-oils/anointing-oils-catalog.png",
+        alt: "Full anointing oil collection: seven Holy Land botanical blends in 12ml, 30ml, and 100ml bottles",
+      },
+    ],
     placeholderIcon: "oil-bottle",
     placeholderTone: "navy",
   },
@@ -102,6 +112,24 @@ export const collections: Collection[] = [
       "Each item ships with respectful packaging suited to gifting, along with the origin documentation appropriate to its size and price point.",
     ],
     communityFit: ["catholic", "gift-shop-distributor"],
+    heroImage: {
+      src: "/images/catholic/catholic-crosses-catalog.png",
+      alt: "Holy Land olive wood crosses — Small, Medium, Large, Wall Cross with Jerusalem Stone, and Pastor Desk Cross",
+    },
+    galleryImages: [
+      {
+        src: "/images/catholic/catholic-crosses-catalog.png",
+        alt: "Olive wood cross collection: five sizes and styles from the Holy Land",
+      },
+      {
+        src: "/images/catholic/catholic-devotional-catalog.png",
+        alt: "Ministry and devotional items: Holy Communion Set, Bible Verse Bookmark, Jerusalem Wall Plaque, Prayer Cards, Olive Wood Prayer Box, Holy Land Gift Set",
+      },
+      {
+        src: "/images/catholic/catholic-additional-catalog.png",
+        alt: "Additional Holy Land keepsakes: Olive Wood Communion Bread Plate, Pastor Appreciation Gift Set, Olive Wood Holding Cross, Jerusalem Stone Keepsake, Scripture Plaque",
+      },
+    ],
     placeholderIcon: "rosary",
     placeholderTone: "stone",
   },
