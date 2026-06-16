@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { cn } from "@/lib/utils";
+import { cn, resolveImageSrc } from "@/lib/utils";
 import type { PlaceholderIcon, PlaceholderTone, ProductImage } from "@/lib/types";
 import { ImagePlaceholder } from "./ImagePlaceholder";
 
@@ -38,7 +38,7 @@ export function MediaFrame({
     return (
       <div className={cn("relative overflow-hidden rounded-lg bg-ivory-300", aspectClasses[aspect], className)}>
         <Image
-          src={image.src}
+          src={resolveImageSrc(image.src)}
           alt={image.alt}
           fill
           priority={priority}

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { collections, getCollectionBySlug } from "@/data/collections";
 import { getProductsByCollection } from "@/data/products";
+import { resolveImageSrc } from "@/lib/utils";
 import { Container } from "@/components/shared/Container";
 import { ProductFilterGrid } from "@/components/products/ProductFilterGrid";
 import { Badge } from "@/components/shared/Badge";
@@ -78,7 +79,7 @@ export default function CollectionListingPage({ params }: PageProps) {
           <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3">
             {collection.galleryImages.map((img) => (
               <div key={img.src} className="relative aspect-[3/4] overflow-hidden rounded-md bg-ivory-200">
-                <Image src={img.src} alt={img.alt} fill className="object-cover" sizes="(min-width: 1024px) 33vw, 50vw" />
+                <Image src={resolveImageSrc(img.src)} alt={img.alt} fill className="object-cover" sizes="(min-width: 1024px) 33vw, 50vw" />
               </div>
             ))}
           </div>

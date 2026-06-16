@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { resolveImageSrc } from "@/lib/utils";
 import Link from "next/link";
 import { ShieldCheck, Lock, Users, ArrowRight, CheckCircle2 } from "lucide-react";
 import { Container } from "@/components/shared/Container";
@@ -69,7 +70,7 @@ export default function ProvenancePassportPage() {
           <FadeIn delay={0.15}>
             <div className="overflow-hidden rounded-lg border border-gold-500/25 bg-navy-800/40 p-2 shadow-2xl">
               <Image
-                src="/images/provenance/provenance-passport-overview.png"
+                src={resolveImageSrc("/images/provenance/provenance-passport-overview.png")}
                 alt="Holy Land Provenance Passport overview: passport booklet, certificate, serial tag, shofar horn, and tamper-evident seal"
                 width={760}
                 height={950}
@@ -186,7 +187,7 @@ export default function ProvenancePassportPage() {
           </FadeIn>
           <FadeIn delay={0.1} className="overflow-hidden rounded-lg border border-stone-200 shadow-card">
             <Image
-              src="/images/provenance/provenance-digital-verification.png"
+              src={resolveImageSrc("/images/provenance/provenance-digital-verification.png")}
               alt="Sample digital verification screens showing photo and video documentation from Jerusalem, the Sea of Galilee, and the Jordan River"
               width={760}
               height={950}
@@ -242,7 +243,7 @@ export default function ProvenancePassportPage() {
           <FadeIn delay={0.1} className="relative">
             <div className="overflow-hidden rounded-lg border border-stone-200 shadow-card">
               <Image
-                src="/images/provenance/provenance-certificate-system.png"
+                src={resolveImageSrc("/images/provenance/provenance-certificate-system.png")}
                 alt="Holy Land Provenance certificate system showing the batch journey log, tamper-evident seals, and printed proof materials"
                 width={760}
                 height={950}
@@ -288,7 +289,7 @@ export default function ProvenancePassportPage() {
               <QRProofCard />
               <div className="overflow-hidden rounded-md border border-gold-500/20 shadow-card">
                 <Image
-                  src="/images/provenance/provenance-trust-package.png"
+                  src={resolveImageSrc("/images/provenance/provenance-trust-package.png")}
                   alt="The full Holy Land Provenance trust package, including passport booklet, certificate, journey log, and tamper-evident seal"
                   width={760}
                   height={950}

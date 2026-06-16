@@ -6,6 +6,7 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 import { PremiumLinkButton } from "@/components/shared/PremiumLinkButton";
 import { Container } from "@/components/shared/Container";
 import { JerusalemSkyline } from "@/components/shared/JerusalemSkyline";
+import { resolveImageSrc } from "@/lib/utils";
 
 const EASE = [0.21, 0.47, 0.32, 0.98] as const;
 
@@ -74,7 +75,7 @@ export function HeroSection() {
           <div className="relative rounded-lg border border-gold-500/25 bg-navy-800/40 p-2 shadow-2xl">
             <div className="relative overflow-hidden rounded-md">
               <Image
-                src="/images/provenance/provenance-trust-package.png"
+                src={resolveImageSrc("/images/provenance/provenance-trust-package.png")}
                 alt="The Holy Land Provenance trust package: passport booklet, certificate, serial tag, QR card, and tamper-evident seal"
                 width={760}
                 height={950}
@@ -92,7 +93,7 @@ export function HeroSection() {
           >
             <div className="relative aspect-square overflow-hidden rounded-sm bg-ivory-200">
               <Image
-                src="/images/shofars/yemenite-kudu-shofar-natural.jpg"
+                src={resolveImageSrc("/images/shofars/yemenite-kudu-shofar-natural.jpg")}
                 alt="Yemenite Kudu Shofar, prepared in Israel"
                 fill
                 className="object-contain p-2"
