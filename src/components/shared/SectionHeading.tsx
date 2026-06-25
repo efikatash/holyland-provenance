@@ -33,14 +33,14 @@ export function SectionHeading({
       )}
       <h2
         className={cn(
-          size === "lg" ? "text-display-sm sm:text-display-md lg:text-display-lg" : "text-2xl sm:text-display-sm",
+          size === "lg" ? "text-2xl sm:text-display-sm lg:text-display-md xl:text-display-lg" : "text-xl sm:text-2xl lg:text-display-sm",
           "text-balance",
           light ? "text-ivory-100" : "text-navy-700"
         )}
       >
         {title}
       </h2>
-      <div className={cn("my-5 w-20", align === "left" && "ml-0")}>
+      <div className={cn("my-3 w-20 sm:my-5", align === "left" && "ml-0")}>
         <GoldDivider />
       </div>
       {description && (

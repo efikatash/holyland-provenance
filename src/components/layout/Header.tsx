@@ -25,7 +25,7 @@ export function Header() {
         </Container>
       </div>
 
-      <Container className="flex h-20 items-center justify-between gap-4">
+      <Container className="flex h-16 items-center justify-between gap-4 lg:h-20">
         <Logo />
 
         <nav className="hidden items-center gap-8 lg:flex" aria-label="Primary">

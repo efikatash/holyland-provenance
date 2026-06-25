@@ -16,7 +16,7 @@ export function HeroSection() {
       <JerusalemSkyline className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 w-full text-ivory-100 opacity-[0.06]" />
       <div className="pointer-events-none absolute -top-32 left-1/2 h-[480px] w-[480px] -translate-x-1/2 rounded-full bg-gold-500/10 blur-3xl" />
 
-      <Container className="relative grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10">
+      <Container className="relative grid items-center gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
@@ -25,19 +25,19 @@ export function HeroSection() {
           <span className="eyebrow text-gold-400">
             <ShieldCheck className="h-3.5 w-3.5" aria-hidden="true" /> Israel &rarr; Philippines
           </span>
-          <h1 className="mt-5 text-display-md text-balance text-ivory-100 sm:text-display-lg lg:text-display-xl">
+          <h1 className="mt-4 text-balance text-[1.85rem] leading-[1.14] text-ivory-100 sm:text-display-md lg:text-display-lg xl:text-display-xl">
             Holy Land Products from Israel, Verified for the Philippines
           </h1>
-          <p className="mt-6 max-w-xl text-base leading-relaxed text-ivory-300/80 sm:text-lg">
+          <p className="mt-5 max-w-xl text-base leading-relaxed text-ivory-300/80 sm:text-lg">
             Premium Christian gifts, worship items, and Bible study products with documented Israel origin, batch
             records, and Holy Land provenance.
           </p>
 
-          <div className="mt-9 flex flex-wrap items-center gap-4">
-            <PremiumLinkButton href="/collections" variant="gold" size="lg" icon={ArrowRight}>
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
+            <PremiumLinkButton href="/collections" variant="gold" size="lg" icon={ArrowRight} className="w-full justify-center sm:w-auto">
               Explore Collections
             </PremiumLinkButton>
-            <PremiumLinkButton href="/verify-product" variant="outline-light" size="lg">
+            <PremiumLinkButton href="/verify-product" variant="outline-light" size="lg" className="w-full justify-center sm:w-auto">
               Verify a Product
             </PremiumLinkButton>
           </div>
@@ -45,23 +45,23 @@ export function HeroSection() {
             href="/request-quote#catalog"
             variant="ghost"
             size="md"
-            className="mt-5 !px-0 text-ivory-200 hover:text-gold-300"
+            className="mt-4 text-ivory-200 hover:text-gold-300"
           >
             Request Wholesale Catalog &rarr;
           </PremiumLinkButton>
 
-          <dl className="mt-12 grid max-w-md grid-cols-3 gap-6 border-t border-ivory-100/10 pt-8">
+          <dl className="mt-10 grid max-w-md grid-cols-3 gap-4 border-t border-ivory-100/10 pt-7 sm:gap-6">
             <div>
               <dt className="font-serif text-2xl text-gold-300">4</dt>
-              <dd className="text-xs text-ivory-300/70">Curated collections</dd>
+              <dd className="mt-0.5 text-xs leading-snug text-ivory-300/70">Curated collections</dd>
             </div>
             <div>
               <dt className="font-serif text-2xl text-gold-300">100%</dt>
-              <dd className="text-xs text-ivory-300/70">Documented batches</dd>
+              <dd className="mt-0.5 text-xs leading-snug text-ivory-300/70">Documented batches</dd>
             </div>
             <div>
               <dt className="font-serif text-2xl text-gold-300">PH</dt>
-              <dd className="text-xs text-ivory-300/70">Imported &amp; delivered</dd>
+              <dd className="mt-0.5 text-xs leading-snug text-ivory-300/70">Imported &amp; delivered</dd>
             </div>
           </dl>
         </motion.div>

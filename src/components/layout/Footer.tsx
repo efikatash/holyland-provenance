@@ -20,17 +20,17 @@ export function Footer() {
               &ldquo;{siteConfig.microcopy}&rdquo;
             </p>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-ivory-300/70">{siteConfig.description}</p>
-            <div className="mt-6 flex items-center gap-4">
+            <div className="mt-6 flex items-center gap-2">
               <a
                 href={siteConfig.social.facebook}
-                className="text-ivory-300/70 transition-colors hover:text-gold-300"
+                className="-m-2.5 p-2.5 text-ivory-300/70 transition-colors hover:text-gold-300"
                 aria-label="Holy Land Provenance on Facebook"
               >
                 <Facebook className="h-5 w-5" />
               </a>
               <a
                 href={siteConfig.social.instagram}
-                className="text-ivory-300/70 transition-colors hover:text-gold-300"
+                className="-m-2.5 p-2.5 text-ivory-300/70 transition-colors hover:text-gold-300"
                 aria-label="Holy Land Provenance on Instagram"
               >
                 <Instagram className="h-5 w-5" />
@@ -41,13 +41,13 @@ export function Footer() {
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
             {footerNav.map((group) => (
               <div key={group.label}>
-                <p className="mb-4 text-[11px] font-semibold uppercase tracking-[0.18em] text-gold-400">
+                <p className="mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-gold-400">
                   {group.label}
                 </p>
-                <ul className="space-y-2.5">
+                <ul className="space-y-1">
                   {group.links.map((link) => (
                     <li key={link.href}>
-                      <Link href={link.href} className="text-sm text-ivory-300/75 hover:text-gold-300">
+                      <Link href={link.href} className="inline-block py-1.5 text-sm text-ivory-300/75 hover:text-gold-300">
                         {link.label}
                       </Link>
                     </li>
@@ -77,7 +77,7 @@ export function Footer() {
           </span>
         </div>
 
-        <div className="mt-8 flex flex-col gap-3 border-t border-ivory-100/10 pt-6 text-xs text-ivory-300/50 sm:flex-row sm:items-start sm:justify-between">
+        <div className="mt-8 flex flex-col gap-3 border-t border-ivory-100/10 pt-6 text-xs text-ivory-300/60 sm:flex-row sm:items-start sm:justify-between">
           <p>
             © {new Date().getFullYear()} {siteConfig.brandName}. All rights reserved.
           </p>

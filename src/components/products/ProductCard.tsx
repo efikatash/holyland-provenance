@@ -28,7 +28,7 @@ export function ProductCard({ product }: { product: Product }) {
       </Link>
       <div className="flex flex-1 flex-col p-5">
         {collection && (
-          <p className="text-[10.5px] font-semibold uppercase tracking-[0.14em] text-gold-700">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-gold-700">
             {collection.shortName}
           </p>
         )}
@@ -71,7 +71,7 @@ export function ProductCard({ product }: { product: Product }) {
           <PremiumLinkButton
             href={`/request-quote?product=${product.slug}`}
             variant="outline"
-            size="sm"
+            size="md"
             className="w-full justify-center"
             icon={ArrowRight}
           >

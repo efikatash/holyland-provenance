@@ -20,8 +20,8 @@ export function CollectionCard({ collection }: { collection: Collection }) {
         aspect="landscape"
         className="rounded-none"
       />
-      <div className="flex flex-1 flex-col p-6">
-        <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-gold-700">{collection.eyebrow}</p>
+      <div className="flex flex-1 flex-col p-4 sm:p-6">
+        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-gold-700">{collection.eyebrow}</p>
         <h3 className="mt-2 font-serif text-xl text-navy-700">{collection.name}</h3>
         <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-400">{collection.description}</p>
         <div className="mt-4 flex flex-wrap gap-1.5">
