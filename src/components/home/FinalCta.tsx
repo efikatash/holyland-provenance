@@ -11,7 +11,7 @@ export function FinalCta() {
       <Container className="relative text-center">
         <p className="eyebrow text-gold-400">Begin With Confidence</p>
         <h2 className="mx-auto mt-4 max-w-2xl text-display-sm text-balance text-ivory-100 sm:text-display-md">
-          Start with a verified sample set from Israel.
+          Start with a verified sample set from the Holy Land.
         </h2>
         <div className="my-6 flex justify-center">
           <GoldDivider />

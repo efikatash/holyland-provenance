@@ -57,7 +57,7 @@ const SHOFAR_SOUND_TEST_NOTE = {
 };
 
 /* ------------------------------------------------------------------ */
-/*  1. Shofars from Israel                                             */
+/*  1. Shofars from the Holy Land                                      */
 /* ------------------------------------------------------------------ */
 
 const shofars: Product[] = [
@@ -68,13 +68,13 @@ const shofars: Product[] = [
     sourceNote: "Hebrew: שופר תימני / קודו",
     tagline: "A long spiral horn favored for its deep, sustained tone.",
     summary:
-      "A long-spiral kudu horn shofar prepared in Israel, offered in natural and polished finishes from personal to platform size.",
+      "A long-spiral kudu horn shofar prepared in the Holy Land, offered in natural and polished finishes from personal to platform size.",
     description: [
-      "The Yemenite Kudu Shofar is prized for its dramatic spiral form and deep, sustained tone. It is prepared in Israel from natural kudu horn, inspected for soundness, and finished in either a natural or polished presentation.",
+      "The Yemenite Kudu Shofar is prized for its dramatic spiral form and deep, sustained tone. It is prepared in the Holy Land from natural kudu horn, inspected for soundness, and finished in either a natural or polished presentation.",
       "Because each horn is a natural material, exact length, curl, and coloring vary piece to piece. Sizing below is offered as a guide — exact specifications are confirmed at quotation.",
     ],
     communityFit: ["pentecostal-evangelical", "gift-shop-distributor"],
-    originStatement: "Handcrafted and prepared in Israel from natural kudu horn.",
+    originStatement: "Handcrafted and prepared in the Holy Land from natural kudu horn.",
     suggestedUse: "For prayer, worship, teaching, and meaningful gifting to pastors and ministry leaders.",
     whatsIncluded: [
       "Inspected, ready-to-sound shofar",
@@ -119,13 +119,13 @@ const shofars: Product[] = [
     sourceNote: "Hebrew: שופר אייל",
     tagline: "The traditional curved shofar, in natural and polished finishes.",
     summary:
-      "The traditional curved ram's horn shofar, prepared in Israel and sized from personal devotion to congregational ministry.",
+      "The traditional curved ram's horn shofar, prepared in the Holy Land and sized from personal devotion to congregational ministry.",
     description: [
-      "The Ram's Horn Shofar carries the traditional curved silhouette most associated with shofar worship. Each horn is prepared in Israel and offered in a natural or polished finish.",
+      "The Ram's Horn Shofar carries the traditional curved silhouette most associated with shofar worship. Each horn is prepared in the Holy Land and offered in a natural or polished finish.",
       "Its clear, accessible tone makes this the most commonly requested shofar for churches building a worship or teaching collection.",
     ],
     communityFit: ["pentecostal-evangelical", "gift-shop-distributor"],
-    originStatement: "Handcrafted and prepared in Israel from natural ram's horn.",
+    originStatement: "Handcrafted and prepared in the Holy Land from natural ram's horn.",
     suggestedUse: "For prayer, worship, teaching, and meaningful gifting to pastors and ministry leaders.",
     whatsIncluded: [
       "Inspected, ready-to-sound shofar",
@@ -171,13 +171,13 @@ const shofars: Product[] = [
     sourceNote: "Hebrew: שופר אייל בבלי — also called Babylonian-Style Ram's Horn Shofar",
     tagline: "A deeply curved ram's horn shofar in the Babylonian style.",
     summary:
-      "A Babylonian-style ram's horn shofar with a more dramatic curve, prepared in Israel in natural and polished finishes.",
+      "A Babylonian-style ram's horn shofar with a more dramatic curve, prepared in the Holy Land in natural and polished finishes.",
     description: [
-      "The Bavli (Babylonian-style) Ram's Horn Shofar is shaped with a deeper, more dramatic curve than the classic form. It is prepared in Israel and finished naturally or polished, with the same care and inspection as the rest of our shofar collection.",
+      "The Bavli (Babylonian-style) Ram's Horn Shofar is shaped with a deeper, more dramatic curve than the classic form. It is prepared in the Holy Land and finished naturally or polished, with the same care and inspection as the rest of our shofar collection.",
       "Many ministry leaders choose the Bavli style for its distinctive silhouette alongside a classic ram's horn or kudu shofar.",
     ],
     communityFit: ["pentecostal-evangelical", "gift-shop-distributor"],
-    originStatement: "Handcrafted and prepared in Israel from natural ram's horn, in the Babylonian style.",
+    originStatement: "Handcrafted and prepared in the Holy Land from natural ram's horn, in the Babylonian style.",
     suggestedUse: "For prayer, worship, teaching, and meaningful gifting to pastors and ministry leaders.",
     whatsIncluded: [
       "Inspected, ready-to-sound shofar",
@@ -228,7 +228,7 @@ const shofars: Product[] = [
       "Sized to fit small through extra-large shofars; let us know your shofar size when requesting a quote so we can confirm fit.",
     ],
     communityFit: ["pentecostal-evangelical", "gift-shop-distributor"],
-    originStatement: "Prepared in Israel to accompany shofar orders.",
+    originStatement: "Prepared in the Holy Land to accompany shofar orders.",
     suggestedUse: "For respectful display and protective storage between uses.",
     whatsIncluded: ["Wooden display stand", "Care card"],
     documentationAvailable: BATCH_RECORD_DOCS,
@@ -291,7 +291,7 @@ function oilProduct(args: {
       args.paragraph2,
     ],
     communityFit: ["pentecostal-evangelical", "catholic", "gift-shop-distributor"],
-    originStatement: "Prepared in Israel from botanical sources, bottled for devotional use.",
+    originStatement: "Prepared in the Holy Land from botanical sources, bottled for devotional use.",
     suggestedUse: "For prayer, dedication, and personal or ministry devotion. For external devotional use only.",
     whatsIncluded: ["Labeled bottle in your selected size", "Devotional-use-only labeling", "Origin documentation appropriate to order tier"],
     documentationAvailable: BATCH_RECORD_DOCS,
@@ -316,7 +316,7 @@ const anointingOils: Product[] = [
     name: "Frankincense & Myrrh Anointing Oil",
     tagline: "A warm, resinous blend rooted in Scripture's most recognized offering.",
     scentNote: "Its scent profile is warm, resinous, and traditional — the pairing named in Scripture's nativity account.",
-    summary: "A warm, resinous Frankincense & Myrrh blend, bottled in Israel for prayer and dedication.",
+    summary: "A warm, resinous Frankincense & Myrrh blend, bottled in the Holy Land for prayer and dedication.",
     paragraph2: "A frequent first choice for churches building a devotional oil set, often paired with Cedar of Lebanon or King David.",
   }),
   oilProduct({
@@ -324,7 +324,7 @@ const anointingOils: Product[] = [
     name: "Spikenard Anointing Oil",
     tagline: "An earthy, aromatic oil named in the Gospels.",
     scentNote: "Its scent profile is earthy and deeply aromatic, drawn from the plant named in the Gospel accounts of anointing.",
-    summary: "An earthy Spikenard blend, bottled in Israel for prayer, worship, and personal devotion.",
+    summary: "An earthy Spikenard blend, bottled in the Holy Land for prayer, worship, and personal devotion.",
     paragraph2: "Often requested by congregations and Bible study groups studying the Gospel anointing narratives.",
   }),
   oilProduct({
@@ -332,7 +332,7 @@ const anointingOils: Product[] = [
     name: "Cedar of Lebanon Anointing Oil",
     tagline: "A grounding, woody scent drawn from Scripture's cedar.",
     scentNote: "Its scent profile is woody and grounding, referencing the cedar named throughout the Hebrew Scriptures.",
-    summary: "A grounding Cedar of Lebanon blend, bottled in Israel for prayer and ministry use.",
+    summary: "A grounding Cedar of Lebanon blend, bottled in the Holy Land for prayer and ministry use.",
     paragraph2: "A popular choice for pastor appreciation gifts and ordination ceremonies.",
   }),
   oilProduct({
@@ -340,15 +340,15 @@ const anointingOils: Product[] = [
     name: "Rose of Sharon Anointing Oil",
     tagline: "A floral blend named for Scripture's Rose of Sharon.",
     scentNote: "Its scent profile is floral and gentle, named for the Rose of Sharon referenced in the Song of Songs.",
-    summary: "A floral Rose of Sharon blend, bottled in Israel for personal and ministry devotion.",
+    summary: "A floral Rose of Sharon blend, bottled in the Holy Land for personal and ministry devotion.",
     paragraph2: "Frequently chosen as a gift for women's ministry leaders and dedication ceremonies.",
   }),
   oilProduct({
     slug: "king-david-anointing-oil",
     name: "King David Anointing Oil",
-    tagline: "A signature ministry blend inspired by Israel's anointed king.",
+    tagline: "A signature ministry blend inspired by the Holy Land's anointed king.",
     scentNote: "Its scent profile is a rich, signature house blend, prepared as a ministry-grade devotional oil.",
-    summary: "A signature King David blend, bottled in Israel and favored for pastoral and ministry use.",
+    summary: "A signature King David blend, bottled in the Holy Land and favored for pastoral and ministry use.",
     paragraph2: "Our most frequently requested blend for pastor appreciation gifts and ministry leadership gatherings.",
     featured: true,
   }),
@@ -655,7 +655,7 @@ const catholicKeepsakes: Product[] = [
       "A popular small addition to Holy Land gift sets and parish gift shop counters.",
     ],
     communityFit: ["catholic", "gift-shop-distributor"],
-    originStatement: "Prepared in Israel from botanical sources, bottled for devotional use.",
+    originStatement: "Prepared in the Holy Land from botanical sources, bottled for devotional use.",
     suggestedUse: "For personal devotion and gifting. For external devotional use only.",
     whatsIncluded: ["Small labeled bottle", "Devotional-use-only labeling"],
     documentationAvailable: BATCH_RECORD_DOCS,

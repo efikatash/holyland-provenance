@@ -10,9 +10,9 @@ import { ResellersSection } from "@/components/home/ResellersSection";
 import { FinalCta } from "@/components/home/FinalCta";
 
 export const metadata: Metadata = {
-  title: "Holy Land Products from Israel, Verified for the Philippines",
+  title: "Holy Land Products, Verified for the Philippines",
   description:
-    "Premium Christian gifts, worship items, and Bible study products with documented Israel origin, batch records, and Holy Land provenance — for churches, pastors, gift shops, and distributors in the Philippines.",
+    "Premium Christian gifts, worship items, and Bible study products with documented Holy Land origin, batch records, and provenance you can verify — for churches, pastors, gift shops, and distributors in the Philippines.",
   alternates: { canonical: "/" },
 };
 

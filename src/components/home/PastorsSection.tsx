@@ -32,7 +32,7 @@ export function PastorsSection() {
               <span className="text-gold-600">—</span> Pastor appreciation sets with documentation included
             </li>
             <li className="flex gap-2.5">
-              <span className="text-gold-600">—</span> Worship and prayer items prepared in Israel
+              <span className="text-gold-600">—</span> Worship and prayer items prepared in the Holy Land
             </li>
             <li className="flex gap-2.5">
               <span className="text-gold-600">—</span> Bulk and single-gift quantities, with quotes confirmed before

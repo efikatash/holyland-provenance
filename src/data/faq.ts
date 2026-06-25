@@ -2,9 +2,9 @@ import type { FaqItem } from "@/lib/types";
 
 export const faqItems: FaqItem[] = [
   {
-    question: "Are the products from Israel?",
+    question: "Are the products from the Holy Land?",
     answer:
-      "Yes. Every product in our catalog is prepared, bottled, or crafted in Israel before being imported to the Philippines. Where a product involves a natural material sourced from outside Israel before preparation — such as shofar horn — we describe that distinction plainly on the product page rather than implying otherwise.",
+      "Yes. Every product in our catalog is prepared, bottled, or crafted in the Holy Land before being imported to the Philippines. Where a product involves a natural material sourced from outside the Holy Land before preparation — such as shofar horn — we describe that distinction plainly on the product page rather than implying otherwise.",
   },
   {
     question: "How do I verify the product origin?",
@@ -17,9 +17,9 @@ export const faqItems: FaqItem[] = [
       "It is our documentation system for proving origin and handling: a unique serial number, a QR proof page, a Certificate of Holy Land Documentation, a Batch Journey Log, photo and video documentation, and — for eligible items — a tamper-evident seal. Visit the Provenance Passport page for full details.",
   },
   {
-    question: "Are shofars made from Israeli animals?",
+    question: "Are shofars made from Holy Land animals?",
     answer:
-      "Shofars sold through Holy Land Provenance are handcrafted and prepared in Israel from natural horn. We do not claim the source animal itself originated in Israel unless that has been specifically verified for a given batch — where it has not, we describe the item as \"prepared in Israel from natural horn\" rather than implying the horn itself is of Israeli origin.",
+      "Shofars sold through Holy Land Provenance are handcrafted and prepared in the Holy Land from natural horn. We do not claim the source animal itself originated in the Holy Land unless that has been specifically verified for a given batch — where it has not, we describe the item as \"prepared in the Holy Land from natural horn\" rather than implying the horn itself is of Holy Land origin.",
   },
   {
     question: "Do you sell blessed items?",

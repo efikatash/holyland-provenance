@@ -29,13 +29,13 @@ const passportContents = [
   "QR proof page you can scan or look up online",
   "Certificate of Holy Land Documentation",
   "Batch Journey Log",
-  "Israel origin record",
+  "Holy Land origin record",
   "Supplier invoice reference",
   "Shipment tracking record",
   "Photo and video documentation",
   "Tamper-evident seal (eligible items)",
   "Product care card",
-  "Mini Israel map card",
+  "Mini Holy Land map card",
   "Thank you card",
 ];
 
@@ -56,7 +56,7 @@ export default function ProvenancePassportPage() {
             <p className="mt-6 max-w-lg text-base leading-relaxed text-ivory-300/80 sm:text-lg">
               A documentation system built so a pastor, gift shop owner, or customer never has to take our word for
               it. Every eligible product can carry a serial number, a QR proof page, a printed certificate, and a
-              record of how it traveled from Israel to the Philippines.
+              record of how it traveled from the Holy Land to the Philippines.
             </p>
             <div className="mt-9 flex flex-wrap gap-4">
               <PremiumLinkButton href="#verification-experience" variant="gold" size="lg" icon={ArrowRight}>
@@ -100,8 +100,8 @@ export default function ProvenancePassportPage() {
               &ldquo;Documentation by Product Tier&rdquo; below for how we scale proof to price point.
             </p>
             <DisclaimerBox className="mt-6" title="A note on how we word origin claims">
-              We say a shofar is <strong>handcrafted or prepared in Israel from natural horn</strong> — we do not
-              claim the horn itself originated from an Israeli animal unless that has been specifically verified.
+              We say a shofar is <strong>handcrafted or prepared in the Holy Land from natural horn</strong> — we do not
+              claim the horn itself originated from a Holy Land animal unless that has been specifically verified.
               We use <strong>&ldquo;documented at Biblical sites&rdquo;</strong> or{" "}
               <strong>&ldquo;photographed in selected Holy Land locations&rdquo;</strong> rather than vaguer
               language, and we do not use the word <strong>&ldquo;blessed&rdquo;</strong> unless actual blessing
@@ -168,12 +168,12 @@ export default function ProvenancePassportPage() {
         </Container>
       </section>
 
-      {/* 4. Photo and video proof from Israel */}
+      {/* 4. Photo and video proof from the Holy Land */}
       <section id="photo-video" className="bg-ivory-200 py-20 sm:py-28">
         <Container className="grid gap-14 lg:grid-cols-2 lg:items-center">
           <FadeIn>
             <p className="eyebrow">04 &middot; Photo &amp; Video Proof</p>
-            <h2 className="mt-4 text-display-sm text-navy-700 sm:text-display-md">Photo and video proof from Israel</h2>
+            <h2 className="mt-4 text-display-sm text-navy-700 sm:text-display-md">Photo and video proof from the Holy Land</h2>
             <p className="mt-5 text-base leading-relaxed text-ink-400">
               Batches are photographed and, where practical, filmed at the workshop and at selected Holy Land
               locations — Jerusalem, the Sea of Galilee, and the Jordan River area are common reference points.
@@ -211,7 +211,7 @@ export default function ProvenancePassportPage() {
             <p className="mt-5 text-base leading-relaxed text-ink-400">
               Behind each batch sits an ordinary paper trail: a supplier invoice reference, a shipment waybill, and
               — for animal-horn products — origin and processing documentation. The Batch Journey Log summarizes
-              this trail in plain language, from preparation in Israel through import clearance in the Philippines.
+              this trail in plain language, from preparation in the Holy Land through import clearance in the Philippines.
             </p>
             <p className="mt-4 text-base leading-relaxed text-ink-400">
               For full detail on what documentation typically accompanies a shipment, see{" "}

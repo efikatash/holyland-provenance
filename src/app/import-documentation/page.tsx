@@ -11,11 +11,11 @@ import { JerusalemSkyline } from "@/components/shared/JerusalemSkyline";
 export const metadata: Metadata = {
   title: "Import & Documentation",
   description:
-    "How Holy Land Provenance imports products from Israel to the Philippines: shipping carriers, customs and tax considerations, and documentation for animal-horn products. Informational only.",
+    "How Holy Land Provenance imports products from the Holy Land to the Philippines: shipping carriers, customs and tax considerations, and documentation for animal-horn products. Informational only.",
 };
 
 const shipmentSteps: Step[] = [
-  { title: "Prepared & batched in Israel", description: "Items are prepared, inspected, and assigned to a dated, documented batch before export." },
+  { title: "Prepared & batched in the Holy Land", description: "Items are prepared, inspected, and assigned to a dated, documented batch before export." },
   { title: "Export documentation issued", description: "Supplier invoice, packing list, and — where applicable — origin or process certification are prepared." },
   { title: "International carrier", description: "Shipped via EMS, FedEx, DHL, or another approved carrier, depending on order size and destination." },
   { title: "Philippine customs clearance", description: "The shipment is declared and assessed by the Bureau of Customs based on value, classification, and applicable duties and taxes." },
@@ -24,7 +24,7 @@ const shipmentSteps: Step[] = [
 const documents = [
   { icon: Receipt, title: "Supplier invoice", body: "Itemized value used for customs declaration and your own records." },
   { icon: FileText, title: "Waybill / shipping document", body: "Carrier reference (EMS, FedEx, DHL, or other) used to track the shipment." },
-  { icon: Landmark, title: "Origin statement", body: "A statement of Israel preparation, worded to match what has been verified for that batch." },
+  { icon: Landmark, title: "Origin statement", body: "A statement of Holy Land preparation, worded to match what has been verified for that batch." },
   { icon: AlertTriangle, title: "Animal-horn documentation (shofars)", body: "Where applicable: product or process certification and a species / non-CITES statement." },
 ];
 
@@ -40,7 +40,7 @@ export default function ImportDocumentationPage() {
               How we import, in plain language
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-ivory-300/80 sm:text-lg">
-              An overview of how shipments move from Israel to the Philippines, and what documentation typically
+              An overview of how shipments move from the Holy Land to the Philippines, and what documentation typically
               accompanies them. This page is informational only and is not legal, customs, or tax advice.
             </p>
           </FadeIn>
@@ -51,7 +51,7 @@ export default function ImportDocumentationPage() {
         <Container>
           <SectionHeading
             eyebrow="The Shipping Path"
-            title="From preparation in Israel to your door"
+            title="From preparation in the Holy Land to your door"
           />
           <FadeIn className="mt-14">
             <ProcessStepper steps={shipmentSteps} />

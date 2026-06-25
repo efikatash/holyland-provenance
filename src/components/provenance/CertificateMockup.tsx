@@ -16,7 +16,7 @@ export function CertificateMockup({
   serial = "HL-SHF-000127",
   batch = "HL-2026-06-001",
   productName = "Yemenite Kudu Shofar",
-  originStatement = "This product was sourced from Israel and documented at selected Biblical sites before being imported to the Philippines.",
+  originStatement = "This product was sourced from the Holy Land and documented at selected Biblical sites before being imported to the Philippines.",
   compact = false,
   className,
 }: CertificateMockupProps) {
@@ -63,7 +63,7 @@ export function CertificateMockup({
           </div>
         </div>
         <p className="mt-5 text-[10px] uppercase tracking-[0.16em] text-gold-700">
-          Prepared in Israel &middot; Imported to the Philippines
+          Prepared in the Holy Land &middot; Imported to the Philippines
         </p>
       </div>
     </div>

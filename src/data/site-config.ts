@@ -8,10 +8,10 @@
 export const siteConfig = {
   brandName: "Holy Land Provenance",
   shortName: "Holy Land Provenance",
-  subtitle: "Israel Origin Products for Christian Communities in the Philippines",
+  subtitle: "Holy Land Origin Products for Christian Communities in the Philippines",
   microcopy: "From the Holy Land to your hands, documented with integrity.",
   description:
-    "Holy Land Provenance imports documented, Israel-origin Christian products — shofars, anointing oils, olive wood gifts, and Bible study collections — to churches, pastors, gift shops, and distributors across the Philippines.",
+    "Holy Land Provenance imports documented, Holy Land-origin Christian products — shofars, anointing oils, olive wood gifts, and Bible study collections — to churches, pastors, gift shops, and distributors across the Philippines.",
   url: "https://www.holylandprovenance.com",
   ogImage: "/images/provenance/provenance-passport-overview.png",
   contact: {

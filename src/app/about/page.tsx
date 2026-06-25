@@ -10,14 +10,14 @@ import { GoldDivider } from "@/components/shared/GoldDivider";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Holy Land Provenance is a Philippines-based initiative connecting Christian communities with documented, Israel-origin products — built on authenticity, documentation, and honest import practices.",
+    "Holy Land Provenance is a Philippines-based initiative connecting Christian communities with documented, Holy Land-origin products — built on authenticity, documentation, and honest import practices.",
 };
 
 const timeline = [
   {
     year: "Year One",
     title: "Church community demand for shofars and anointing oils",
-    body: "What began as informal requests from a handful of churches for shofars and anointing oils from Israel revealed a clear, underserved need across the Philippines.",
+    body: "What began as informal requests from a handful of churches for shofars and anointing oils from the Holy Land revealed a clear, underserved need across the Philippines.",
   },
   {
     year: "Expansion",
@@ -72,7 +72,7 @@ export default function AboutPage() {
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-ivory-300/80 sm:text-lg">
               Holy Land Provenance is a Philippines-based initiative connecting Christian communities with
-              carefully selected, documented products from Israel — built on authenticity, respectful packaging,
+              carefully selected, documented products from the Holy Land — built on authenticity, respectful packaging,
               and honest import practices.
             </p>
           </FadeIn>

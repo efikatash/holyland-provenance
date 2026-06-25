@@ -7,8 +7,8 @@ export interface Step {
 
 const defaultSteps: Step[] = [
   {
-    title: "Prepared in Israel",
-    description: "The item is prepared, bottled, or crafted in Israel and assigned to a dated batch.",
+    title: "Prepared in the Holy Land",
+    description: "The item is prepared, bottled, or crafted in the Holy Land and assigned to a dated batch.",
   },
   {
     title: "Documented at Biblical sites",

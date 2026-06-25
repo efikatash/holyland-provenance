@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 const audiences = [
   {
     title: "Pentecostal & Evangelical Churches",
-    description: "Shofars, anointing oils, and worship gifts prepared in Israel for pastors and congregations.",
+    description: "Shofars, anointing oils, and worship gifts prepared in the Holy Land for pastors and congregations.",
     href: "/collections/shofars",
     icon: Flame,
     tone: "wood",

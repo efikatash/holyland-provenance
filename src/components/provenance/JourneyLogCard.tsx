@@ -14,7 +14,7 @@ interface JourneyLogCardProps {
 }
 
 const defaultSteps: JourneyStep[] = [
-  { label: "Prepared in Israel", date: "May 26, 2026" },
+  { label: "Prepared in the Holy Land", date: "May 26, 2026" },
   { label: "Documented at Biblical sites", date: "May 28, 2026" },
   { label: "Quality inspected", date: "June 1, 2026" },
   { label: "Prepared for export", date: "June 3, 2026" },

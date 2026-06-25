@@ -6,9 +6,9 @@ export const collectionsNavGroup: NavGroup = {
   href: "/collections",
   links: [
     {
-      label: "Shofars from Israel",
+      label: "Shofars from the Holy Land",
       href: "/collections/shofars",
-      description: "Yemenite Kudu and Ram's Horn shofars, prepared in Israel.",
+      description: "Yemenite Kudu and Ram's Horn shofars, prepared in the Holy Land.",
     },
     {
       label: "Anointing Oils",
@@ -46,7 +46,7 @@ export const footerNav: NavGroup[] = [
     label: "Collections",
     links: [
       { label: "All Collections", href: "/collections" },
-      { label: "Shofars from Israel", href: "/collections/shofars" },
+      { label: "Shofars from the Holy Land", href: "/collections/shofars" },
       { label: "Anointing Oils", href: "/collections/anointing-oils" },
       { label: "Bible Study Collection", href: "/collections/bible-study-collection" },
       { label: "Catholic Devotional Keepsakes", href: "/collections/catholic-devotional-keepsakes" },

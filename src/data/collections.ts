@@ -3,14 +3,14 @@ import type { Collection } from "@/lib/types";
 export const collections: Collection[] = [
   {
     slug: "shofars",
-    name: "Shofars from Israel",
+    name: "Shofars from the Holy Land",
     shortName: "Shofars",
     eyebrow: "Collection I — Worship & Ministry",
-    tagline: "Prepared in Israel from natural horn, for worship, teaching, and ceremony.",
+    tagline: "Prepared in the Holy Land from natural horn, for worship, teaching, and ceremony.",
     description:
-      "Yemenite Kudu and Ram's Horn shofars prepared in Israel, in polished and natural finishes, sized for personal devotion through congregational ministry.",
+      "Yemenite Kudu and Ram's Horn shofars prepared in the Holy Land, in polished and natural finishes, sized for personal devotion through congregational ministry.",
     longDescription: [
-      "The shofar is among the oldest instruments named in Scripture, sounded for worship, gathering, and proclamation. Each shofar in this collection is prepared in Israel from natural horn, inspected for soundness, and sized for everything from personal devotion to platform ministry.",
+      "The shofar is among the oldest instruments named in Scripture, sounded for worship, gathering, and proclamation. Each shofar in this collection is prepared in the Holy Land from natural horn, inspected for soundness, and sized for everything from personal devotion to platform ministry.",
       "Because landed cost depends on size, finish, shipping method, and order quantity, shofars are offered by request for quote rather than fixed online price. A member of our team will confirm exact specifications, available documentation, and total landed cost before you order.",
     ],
     communityFit: ["pentecostal-evangelical", "gift-shop-distributor"],

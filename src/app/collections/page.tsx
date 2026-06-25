@@ -9,7 +9,7 @@ import { collections } from "@/data/collections";
 export const metadata: Metadata = {
   title: "Collections",
   description:
-    "Browse Holy Land Provenance collections: Shofars from Israel, Anointing Oils, the Bible Study Collection, and Catholic Devotional Keepsakes — each documented and imported to the Philippines.",
+    "Browse Holy Land Provenance collections: Shofars from the Holy Land, Anointing Oils, the Bible Study Collection, and Catholic Devotional Keepsakes — each documented and imported to the Philippines.",
 };
 
 export default function CollectionsPage() {

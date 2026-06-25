@@ -2,7 +2,7 @@ import { Globe, QrCode, FileCheck, Ship, Users } from "lucide-react";
 import { Container } from "@/components/shared/Container";
 
 const items = [
-  { icon: Globe, label: "Made / Prepared in Israel" },
+  { icon: Globe, label: "Made / Prepared in the Holy Land" },
   { icon: QrCode, label: "QR Verified" },
   { icon: FileCheck, label: "Batch Documented" },
   { icon: Ship, label: "Imported to the Philippines" },

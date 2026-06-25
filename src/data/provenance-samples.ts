@@ -13,7 +13,7 @@ export const provenanceSamples: ProvenanceSampleRecord[] = [
     batch: "HL-2026-06-001",
     productName: "Yemenite Kudu Shofar",
     collectionSlug: "shofars",
-    originStatement: "Prepared in Israel from natural kudu horn.",
+    originStatement: "Prepared in the Holy Land from natural kudu horn.",
     documentedAt: ["Jerusalem", "Sea of Galilee", "Jordan River area"],
     importedTo: "Philippines",
     status: "Verified sample record",
@@ -21,14 +21,14 @@ export const provenanceSamples: ProvenanceSampleRecord[] = [
     importedDate: "June 8, 2026",
     documents: [
       { label: "Certificate of Holy Land Documentation", description: "Confirms serial, batch, and origin details for this unit." },
-      { label: "Batch Journey Log", description: "Step-by-step record from preparation in Israel to import into the Philippines." },
+      { label: "Batch Journey Log", description: "Step-by-step record from preparation in the Holy Land to import into the Philippines." },
       { label: "Shipment Record", description: "Carrier and customs clearance reference for this batch." },
       { label: "Care Card", description: "Handling and storage guidance for natural horn." },
     ],
     photoCaptions: [
       "Documented at selected Biblical sites near Jerusalem",
       "Photographed near the Sea of Galilee",
-      "Prepared and inspected before export from Israel",
+      "Prepared and inspected before export from the Holy Land",
     ],
   },
   {
@@ -36,7 +36,7 @@ export const provenanceSamples: ProvenanceSampleRecord[] = [
     batch: "HL-2026-05-014",
     productName: "King David Anointing Oil",
     collectionSlug: "anointing-oils",
-    originStatement: "Prepared in Israel from botanical sources.",
+    originStatement: "Prepared in the Holy Land from botanical sources.",
     documentedAt: ["Jerusalem", "Bethlehem"],
     importedTo: "Philippines",
     status: "Verified sample record",
@@ -48,7 +48,7 @@ export const provenanceSamples: ProvenanceSampleRecord[] = [
       { label: "Shipment Record", description: "Carrier reference for this batch." },
       { label: "Care Card", description: "Storage and devotional-use guidance." },
     ],
-    photoCaptions: ["Documented in Jerusalem", "Bottled and labeled before export from Israel"],
+    photoCaptions: ["Documented in Jerusalem", "Bottled and labeled before export from the Holy Land"],
   },
 ];
 

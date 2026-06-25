@@ -20,7 +20,7 @@ const reasons = [
   {
     icon: ShieldCheck,
     title: "A verifiable story, not just a label",
-    body: "Your customers can scan or look up a serial number themselves — a stronger close than \"imported from Israel\" alone.",
+    body: "Your customers can scan or look up a serial number themselves — a stronger close than \"imported from the Holy Land\" alone.",
   },
   {
     icon: Tags,
@@ -81,7 +81,7 @@ export default function GiftShopsDistributorsPage() {
           <SectionHeading
             eyebrow="Why Resell With Us"
             title="Built to sell itself at the counter"
-            description="Customers in this category are already primed to ask, 'Is this really from Israel?' We built an answer for that question into every order."
+            description="Customers in this category are already primed to ask, 'Is this really from the Holy Land?' We built an answer for that question into every order."
           />
           <Stagger className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {reasons.map((reason) => {

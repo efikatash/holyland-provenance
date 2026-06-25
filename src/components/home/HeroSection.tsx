@@ -23,14 +23,14 @@ export function HeroSection() {
           transition={{ duration: 0.7, ease: EASE }}
         >
           <span className="eyebrow text-gold-400">
-            <ShieldCheck className="h-3.5 w-3.5" aria-hidden="true" /> Israel &rarr; Philippines
+            <ShieldCheck className="h-3.5 w-3.5" aria-hidden="true" /> Holy Land &rarr; Philippines
           </span>
           <h1 className="mt-4 text-balance text-[1.85rem] leading-[1.14] text-ivory-100 sm:text-display-md lg:text-display-lg xl:text-display-xl">
-            Holy Land Products from Israel, Verified for the Philippines
+            Holy Land Products, Verified for the Philippines
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-ivory-300/80 sm:text-lg">
-            Premium Christian gifts, worship items, and Bible study products with documented Israel origin, batch
-            records, and Holy Land provenance.
+            Premium Christian gifts, worship items, and Bible study products with documented Holy Land origin, batch
+            records, and provenance you can verify.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
@@ -94,7 +94,7 @@ export function HeroSection() {
             <div className="relative aspect-square overflow-hidden rounded-sm bg-ivory-200">
               <Image
                 src={resolveImageSrc("/images/shofars/yemenite-kudu-shofar-natural.jpg")}
-                alt="Yemenite Kudu Shofar, prepared in Israel"
+                alt="Yemenite Kudu Shofar, prepared in the Holy Land"
                 fill
                 className="object-contain p-2"
               />
